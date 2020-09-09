@@ -3,6 +3,7 @@
 /*/
 
 # ... but these:
+!/picom.conf
 !/i3/
 !/polybar/
 #!/ranger/
