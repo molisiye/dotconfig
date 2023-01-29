@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for x in *; do
+  sed -i "s/#e5e9f0/#e5e9f0/g" $x
+done
