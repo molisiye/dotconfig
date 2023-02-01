@@ -15,11 +15,17 @@ Awesome wm dotfiles
 
 ### **Window Manager**
 ```bash
-$ yay -S awesome-git picom-git xidlehook-git i3lock-color flameshot papirus-icon-theme rofi jq redshift qt5ct kvantum gnome-system-monitor polkit-gnome gnome-keyring mpd mpc ncmpcpp playerctl mpdris2 -noconfirm
+$ sudo dnf in flameshot papirus-icon-theme rofi jq redshift qt5ct kvantum gnome-system-monitor
+polkit-gnome gnome-keyring mpd mpc ncmpcpp playerctl mpdris2 -y
 ```
+#### ***awesome、picom、i2lock-color 和 xidlehook 需要自行编译***
+1. awesome
+2. picom
+3. i3lock-color
+4. xidlehook
+
 ### **Installation**
 ```bash
-$ git clone --recurse-submodules https://github.com/sachnr/dotfiles.git ~/.config/awesome
 $ mkdir -p ~/.config/rofi ~/.local/share
 $ cp -r ~/.config/awesome/misc/alacritty/ ~/.config/
 $ cp -r ~/.config/awesome/misc/fonts/ ~/.local/share/
